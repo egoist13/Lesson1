@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>MonoChrome - Lightweight Landing Page</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/media-queries.css">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata%7COxygen+Mono" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    </head>
+    <body>
+        <!--TODO: Fill this page, Add some dynamics, Make it adaptive (Using FlexBox)-->
+        <!--HEADER START-->
+        <header>
+            <div class="logo">
+                <a href="index.html">MONO<span>chrome</span></a>
+            </div>
+            <div class="mobile"  onclick="foo()">
+                <i id="li" class="material-icons md-light md-36">view_headline</i>
+            </div>
+            <ul class="navbar" id="nav">
+                <li><a href="index.html">Main</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="callto:0666567360" id="button">Call Me</a></li>
+            </ul>
+            <div>
+                <h1>Welcome to MONOchrome!</h1>
+                <h2>Lightweight and Minimalistic Landing Page</h2>
+            </div>
+        </header>
+        <!--HEADER END-->
+        
+        <!--MAIN START-->
+        <main>
+            <h2>Why Minimalism and Lightweight is my choise?</h2>
+            <div class="about">
+                <div>
+                    <i class="material-icons md-48">flight</i>
+                    <h3>It's Fast</h3>
+                    <p>
+                        Because of its simplicity this page load quickly and immediately. I appreciate Your time and don't want You to spend it on waiting.
+                    </p>
+                </div>
+                <div>
+                    <i class="material-icons md-48">opacity</i>
+                    <h3>It's Clear</h3>
+                    <p>
+                        This page is clear and understandable. I don't want to divert Your attention to the useless information.
+                    </p>
+                </div>
+                <div>
+                    <i class="material-icons md-48">work</i>
+                    <h3>It's Classical</h3>
+                    <p>
+                        You appreciate the style and comfort of classic design? So do I.
+                    </p>
+                </div>
+                <div>
+                    <i class="material-icons md-48">today</i>
+                    <h3>It's Modern</h3>
+                    <p>
+                        Modern design has something for everyone. Even if Your taste is specific there are still something that will appeal to You.
+                    </p>
+                </div>
+                <div>
+                    <i class="material-icons md-48">important_devices</i>
+                    <h3>It's Adaptive</h3>
+                    <p>
+                        Responsive web design isn’t a trend any more, it’s a must. That's all.
+                    </p>
+                </div>
+                <div>
+                    <i class="material-icons md-48">visibility</i>
+                    <h3>It's Beautiful</h3>
+                    <p>
+                        Beauty is the qualities that give pleasure to the senses.
+                    </p>
+                </div>
+            </div>
+        </main>
+        <!--MAIN END-->
+        
+        <!--FOOTER START-->
+        <footer>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+            <div class="copy">
+                <p>Copyright &copy; 2016 EGOist.</p>
+            </div>
+        </footer>
+        <!--FOOTER END-->
+        <script type="text/javascript">
+            function foo() {
+                var li = document.getElementById("li");
+                var nav = document.getElementById("nav");
+
+                    if (li.getAttribute("class") == "material-icons md-light md-36") {
+                        li.setAttribute("class", "material-icons md-light md-36 md-inactive");
+                        nav.style.display = "block";
+                    } else {
+                        li.setAttribute("class", "material-icons md-light md-36");
+                        nav.style.display = "none";
+                    }
+                }
+        </script>
+    </body>
+</html>

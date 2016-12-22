@@ -1,0 +1,170 @@
+/* GENERAL STYLES */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER STYLES*/
+header {
+    background-image: url('../images/head.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+.logo a {
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    float: left;
+    font-family: 'Oxygen Mono', monospace;
+    font-size: 1.9em;
+    font-weight: 800;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #333333;
+}
+
+.logo a span {
+    display: block;
+}
+
+/* NAVIGATION STYLES */
+
+.navbar {
+    margin-left: 300px;
+    height: 105px;
+}
+
+.navbar li {
+    display: block;
+    float: left;
+    margin: 20px auto;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+    font-size: 2.2em;
+    color: #8d8d8d;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.navbar a:hover {
+    background-color: #292929;
+    color: #cccccc;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#button {
+    margin-left: 120px;
+    border: 1px solid #292929;
+}
+
+/* MAIN PART */
+
+header > div h1 {
+    margin-top: 150px;
+    text-align: center;
+    color: #cccccc;
+    font-family: monospace;
+    font-size: 3.5em;
+}
+
+header > div h2 {
+    margin-top: 30px;
+    text-align: center;
+    color: #8d8d8d;
+    font-family: monospace;
+    font-size: 2.5em;
+}
+
+main {
+    float: left;
+    width: 100%;
+    background-color: #e3e3e3;
+}
+
+
+main h2 {
+    margin: 150px 0 100px;
+    text-align: center;
+    color: #333333;
+    font-family: 'Inconsolata', monospace;
+    font-size: 2.5em;
+}
+
+.about div {
+    float: left;
+    width: 30%;
+    height: 300px;
+    margin: 1.5%;
+    font-family: 'Oxygen Mono', monospace;
+}
+
+.material-icons.md-48 { font-size: 48px; }
+
+.about div i,
+.about div h3 {
+    float: left;
+}
+
+.about div i {
+    margin-left: 10px;
+}
+
+.about div h3 {
+    font-size: 1.5em;
+    padding: 10px 20px;
+}
+
+.about div p {
+    clear: left;
+    padding: 20px 12px;
+    color: #333333;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    text-align: justify;
+}
+
+/* FOOTER STYLES */
+
+footer {
+    height: 100px;
+    background-color: #000;
+    clear: left;
+}
+
+.copy p {
+    text-align: center;
+    color: #8d8d8d;
+    font-family: monospace;
+    font-size: 1.3em;
+    padding-top: 50px;
+}
+
+.copy p i {
+    position: relative;
+    top: 2px
+}
+
+.material-icons.md-12 { font-size: 16px; }
+
+.mobile a {
+    display: inline-block;
+}
+
+.mobile {
+    display: none;
+    position: absolute;
+    right: 90px;
+    top: 20px;
+}
+
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+.material-icons.md-36 { font-size: 36px; }
